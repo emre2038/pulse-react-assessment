@@ -39,7 +39,7 @@ app.get('/api/crypto/:symbol', (req, res) => {
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({
-    status: 'ok',
+    status: 'ok', 
     message: 'Pulse API is running',
     version: '2.0.0',
     timestamp: new Date().toISOString()
